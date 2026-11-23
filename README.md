@@ -2,6 +2,8 @@
 
 A mobile-friendly PDF workspace built with React, Vite, Tailwind CSS, PDF.js, and pdf-lib. PDF tools run in the browser; Google Drive sync is optional.
 
+The deployed privacy policy is available at `/privacy.html`.
+
 ## Run locally
 
 ```bash

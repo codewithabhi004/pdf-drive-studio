@@ -146,8 +146,9 @@ export default function App() {
             {activeTab === 'drive' && <MyDrive account={account} onSignIn={signIn} />}
           </Suspense>
           {!getGoogleClientId() && (
-            <p className="mt-5 text-center text-xs text-slate-400">Set VITE_GOOGLE_CLIENT_ID in .env to enable Drive sync.</p>
+            <p className="mt-5 text-center text-xs text-slate-400">Google Drive sync needs OAuth setup in the hosting project.</p>
           )}
+          <p className="mt-6 text-center text-xs text-slate-400"><a className="underline underline-offset-2 hover:text-indigo-600" href="/privacy.html">Privacy policy</a></p>
         </main>
       </div>
 
